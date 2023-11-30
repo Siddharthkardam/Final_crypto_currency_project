@@ -1,0 +1,151 @@
+body{
+    height: auto;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(44, 48, 52);
+    color: whitesmoke;
+}
+.topnavbar{
+    width: 100vw;
+    margin-top: 0px;
+    height: 71px;
+    background-color: rgb(0, 20, 41);
+    border-bottom: 1px solid rgba(221, 219, 230, 0.3);
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 15px;
+    width: 100%;
+    margin-left: 0px;
+    list-style: none;
+    padding-left: 20px;
+}
+#icon{
+    height: 50px;
+}
+a{
+   margin-left: 5px;
+   margin-right: 5px;
+   font-size: 17px;
+   padding: 5px;
+   color: whitesmoke;
+}
+a:link{
+    text-decoration: none;
+}
+input[type=text]{
+    margin-left: 800px;
+    height: 25px;
+}
+.btn{
+    margin-left: 4px;
+    height: 32px;
+    width: 70px;
+    background-color: rgb(0, 20, 41);
+    color: rgb(20, 134, 239);
+    border: 2px solid rgb(20, 134, 239);
+    border-radius: 1mm;
+}
+.heading{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-family: var(--bs-body-font-family);
+}
+.row{
+    display: flex;
+    max-width: 100%;
+    font-size: 17px;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    font-family:var(--bs-body-font-family);
+}
+.col-md-3 mx-2 my-2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.my-2{
+    margin-top: .1rem !important;
+    margin-bottom: .5rem !important;
+
+}
+.mx-2{
+    margin-left: .5rem !important;
+    margin-right: .5rem !important;
+}
+.col-md-3{
+    flex: 0 0 auto;
+    width: 25%;
+}
+.number{
+    font-weight: bold;
+    font-size: 20px;
+}
+.title-cryptostat{
+    font-size: 18px;
+
+}
+.jhaji{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 26px;
+    font: bold;
+    font-family:var(--bs-body-font-family);
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.bachahuapage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: auto;
+    width: 86vw;
+    margin: auto;
+
+}
+.box1{
+    margin-top: 10px;
+    background-color: rgb(0, 20, 41);
+    height: 150px;
+    width: 248px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 2mm;
+}
+.card-title-z{
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading-z{
+    font-size: 24px; margin-left: 10px
+}
+.coin-logo{
+    margin-right: 0px;
+}
+.first-line{
+    display: flex; justify-content: flex-start; margin-bottom: 4px;
+}
+.price{
+    margin-left: 10px;
+    font-size: 16px;
+}
+.price-value{
+    margin-left: 10px;
+    font-size: 17px;
+}
+.price-value-third{
+    font-size: 17px;
+    margin-left: 10px;
+}
+
